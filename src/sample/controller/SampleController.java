@@ -20,7 +20,14 @@ public class SampleController
 		PlayDohCircle thirdCircle;
 		thirdCircle = new PlayDohCircle(10);
 		
-		PlayDohSquare mySquare = new PlaydohSquare(5);
+		PlayDohSquare mySquare = new PlayDohSquare(5);
+		PlayDohSquare bigSquare = new PlayDohSquare();
+		
+		System.out.println("Here is my PlayDoh circle");
+		System.out.println(firstCircle);
+		System.out.println("Here is my second circle " + secondCircle);
+		
+		
 		
 		System.out.println("This is a sample project to show the Github and");
 		System.out.println("Eclipse process so I develop muscle memory");
